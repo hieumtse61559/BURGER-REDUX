@@ -92,9 +92,9 @@ export default function Menu() {
         </ListGroupItem>
 
 
-        <ListGroupItem className="d-flex justify-content-between align-items-center" color="primary">
-          <div className="title">Total:</div>
-          <span>{total}</span>
+        <ListGroupItem className="d-flex justify-content-end align-items-center" color="primary">
+          <h3 className="title mr-4">Total:</h3>
+          <h3>{`${total} VND`}</h3>
         </ListGroupItem>
       </ListGroup>
     </div>
